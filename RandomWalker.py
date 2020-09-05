@@ -21,10 +21,9 @@ def RandomWalker(r):
                     a = random.randint(0,1)
                     if a == 0:
                         x += move
-                    elif a == 1:
+                    else:
                         y += move
                     break
-            continue
         
 #Debug
 RandomWalker(5)
